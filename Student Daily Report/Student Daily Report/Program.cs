@@ -23,11 +23,11 @@
         //start true/false
         Console.WriteLine("Please answer True or False...");
         Console.WriteLine("Do you need help with anything?");
-        Console.ReadLine();
+        bool needHelp = Convert.ToBoolean(Console.ReadLine());
 
-        bool inputTrue = true;
+        //bool needHelp = true;
 
-        if (inputTrue == true)
+        if (needHelp == true)
         {
             Console.WriteLine("Great. An Instructor will be in touch with you shortly.");
             Console.ReadLine();
